@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/jitu7989/java-8-deployment.git'
+                git branch: 'main', url: 'https://github.com/jitu7989/java-21-deployment.git'
             }
         }
         stage('Build') {
